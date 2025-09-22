@@ -73,6 +73,7 @@
             <h1 class="text-light">
                 I am Morgan Freeman
             </h1>
+            <span id="element"></span>
         </div>
         
 
@@ -316,7 +317,7 @@
             </div>
         </div>
 
-        <section id="work" class="pt-5">
+        <section id="work" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -771,7 +772,18 @@
         </div>
     </footer>
 
-    
+
+
+
+    <script>
+    var typed = new Typed('#element', {
+        strings: ['denger', 'web'],
+        typeSpeed: 100,
+        loop: true,
+        loopCount: Infinity,
+    });
+  </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
